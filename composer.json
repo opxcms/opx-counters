@@ -30,5 +30,10 @@
       "Modules\\Opx\\Counters\\": "src/"
     }
   },
+  "extra": {
+    "opxcms" : {
+      "module": "Modules\\Opx\\Counters\\Counters"
+    }
+  },
   "minimum-stability": "dev"
 }
