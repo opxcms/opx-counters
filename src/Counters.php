@@ -7,6 +7,12 @@ use Modules\Opx\Counters\Models\Counter;
 
 class Counters extends BaseModule
 {
+    /** @var string  Module name */
+    protected $name = 'opx_counter';
+
+    /** @var string  Module path */
+    protected $path = __DIR__;
+
     /**
      * Get Counter assigned to key.
      *
