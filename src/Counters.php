@@ -8,7 +8,7 @@ use Modules\Opx\Counters\Models\Counter;
 class Counters extends BaseModule
 {
     /** @var string  Module name */
-    protected $name = 'opx_counter';
+    protected $name = 'opx_counters';
 
     /** @var string  Module path */
     protected $path = __DIR__;
