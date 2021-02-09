@@ -44,7 +44,7 @@ class ManageCountersEditApiController extends APIFormController
     {
         /** @var Counter $counter */
         $id = $request->input('id');
-        $counter = Counter::where('id', $id)->firstOrFail();
+        $counter = Counter::query()->where('id', $id)->firstOrFail();
 
         $template = $this->makeTemplate($counter, 'counter.php');
 

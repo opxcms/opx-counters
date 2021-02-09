@@ -31,7 +31,7 @@ return [
         // enabled
         Template::checkbox('enabled', '', true),
         // content
-        Template::html('content', ''),
+        Template::html('content'),
 
         // timestamps
         Template::timestampCreatedAt(''),

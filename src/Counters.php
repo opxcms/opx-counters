@@ -24,7 +24,7 @@ class Counters extends BaseModule
             return null;
         }
 
-        $counters = Counter::where('enabled', 1)->get();
+        $counters = Counter::query()->where('enabled', 1)->get();
 
         if ($counters === null) {
             return null;
